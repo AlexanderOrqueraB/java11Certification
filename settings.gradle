@@ -1,2 +1,4 @@
 rootProject.name = 'java11Certification'
+include 'src:test'
+findProject(':src:test')?.name = 'test'
 
